@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns11111101101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns11111101101" font="TKTypeRegular" controllayout="npnxnanbsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pxabnsnfns11111101101" font="TKTypeRegular" controllayout="pxabnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="npxnabnsnfns11111101101" font="TKTypeRegular" controllayout="npxnabnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="npnxnanbnsnfns11111101101" font="TKTypeRegular" controllayout="npnxnanbnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pxabnsnfns11111101100" font="TKTypeRegular" controllayout="pxabnsnfns11111101100" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+    <layout name="pnxanbnsnfns11111101101" font="TKTypeRegular" controllayout="pnxanbnsnfns11111101101" colorscheme="npxnabnsnfns11111101101" string_table="npxnabnsnfns11111101101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="NIM Turnover Process" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" value="story_content/logo.swf">
+                <properties>
+                  <property name="width" value="704" />
+                  <property name="height" value="598" />
+                </properties>
+              </option>
+              <option name="html5_logo_url" value="mobile/6O7PZFsw9cF.png" />
+            </options>
+          </option>
+          <option name="sidebar_enabled" value="true">
+            <options>
+              <option name="sidebarpos" value="left" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="outline" value="true" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="true" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="true">
+            <options>
+              <option name="readonly" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="true" />
+          <option name="replay" value="true" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="TKTypeMedium" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns11111101100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+    <control_layout name="pnxanbnsnfns11111101101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="true" />
+      <control name="replay" enabled="true" />
+      <control name="pauseplay" enabled="true" />
+      <control name="logo" enabled="true" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="true" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npxnabnsnfns11111101101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74C4EF" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFB400" alpha="100" stop="0" />
+                <color rgb="0xFFB400" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+                <color rgb="0x0078DC" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74C4EF" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0078DC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0078DC" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x0078DC" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0078DC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB0BAC4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+                <color rgb="0xD9DEE8" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x74C4EF" alpha="100" stop="0" />
+                <color rgb="0x74C4EF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+                <color rgb="0x00A0F5" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+                <color rgb="0xFFFFFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0078DC" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B5564" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0055BE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00A0F5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x003C7D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x78879B" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9DEE8" alpha="100" stop="0" />
+                <color rgb="0x78879B" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npxnabnsnfns11111101101">
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="TKTypeRegular">
+      <files>
+        <file bold="false" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Symbol">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6pPQTP9aCms" displaytext="Introduction" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6pPQTP9aCms.6H6lDMN7uIU" displaytext="Welcome" expand="false" type="slide" />
+            <slidelink slideid="_player.6pPQTP9aCms.6gJTkKasewJ" displaytext="Lesson overview" expand="false" type="slide" />
+            <slidelink slideid="_player.6pPQTP9aCms.6FKdS9IkeNH" displaytext="Learning objectives" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6m7X5RHWnXY" displaytext="What is the NIM process?" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6m7X5RHWnXY.6BYLXvjZMUS" displaytext="New installation maintenance " expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6juWmq6Xswk" displaytext="NIM Team Turnover" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6bp6dQlUqSt" displaytext="Roles" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.69FDSbjHe0G" displaytext="Benefits" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.68VwVs2x6uT" displaytext="Accessing the procedure" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.5qQubNZiaqi" displaytext="Best practices" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6aKcpaTD3Hp" displaytext="Knowledge check " expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.5xlfn4N2nIy" displaytext="Question 1 of 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6rWi7KA6gZQ" displaytext="Question 2 of 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6m7X5RHWnXY.6NvieuV3p08" displaytext="Question 3 of 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5waZ4ANF6Oi" displaytext="NIM benefits" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5waZ4ANF6Oi.6Z4DkBGljaT" displaytext="Customer experience" expand="false" type="slide" />
+            <slidelink slideid="_player.5waZ4ANF6Oi.5adwXx38qrR" displaytext="Process improvements" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6rFWxkwBMsW" displaytext="NIM Turnover Tracker" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6rFWxkwBMsW.5dsL7djHi57" displaytext="Logging in" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.5oZiCTZBza1" displaytext="Navigating the dashboard" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.6IvLJ22mp14" displaytext="Guided practice" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.5tz4eHC5lN0" displaytext="Knowledge check " expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.5qcnY9kTn5Z" displaytext="Question 1 of 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.69zNl8hBi0O" displaytext="Question 2 of 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6rFWxkwBMsW.6HbbNcqNPqz" displaytext="Question 3 of 3" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6qpULhvmNAM" displaytext="Gensuite tools" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6qpULhvmNAM.6PBSDEnGK1c" displaytext="What is Gensuite?" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.67G5fKBu6lL" displaytext="Getting access" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.5hdZ2fAfDSk" displaytext="Inspection tool" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.5zBq6cij54Y" displaytext="Start an inspection" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.6lWEP4HQ6CR" displaytext="Fixing deficiencies" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.65Gc3UP4j49" displaytext="Action Tracking System email" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.5xUHScbnWxG" displaytext="Action Tracking tool" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.6Vd0icIUvGh" displaytext="Tracking Gensuite actions" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.6PS2SHnxw8L" displaytext="Knowledge check " expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.6aiscaaFhTs" displaytext="Question 1 of 3" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.6bbpli33Pmu" displaytext="Knowledge check" expand="false" type="slide" />
+            <slidelink slideid="_player.6qpULhvmNAM.5w3mYPTgJVf" displaytext="Knowledge check" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6gVfd9gPyia" displaytext="Summary and final quiz" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6gVfd9gPyia.6DV7HgOvdXB" displaytext="Summary" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.67bhWWGvhiL" displaytext="Final quiz " expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.5leS7NVPreu" displaytext="Question 1 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.67I6d40kXad" displaytext="Question 2 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.6cTZtaNuJFu" displaytext="Question 3 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.61wfHb6FVLa" displaytext="Question 4 of 5" expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.6DEJnvQP6hL" displaytext="Summary and final quiz " expand="false" type="slide" />
+            <slidelink slideid="_player.6gVfd9gPyia.6TS3Qt0mt84" displaytext="Thank you!" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='TKTypeRegular' style='font-size: 11px;' size='11' color='#003C7D'&gt;Here are some useful links and documents:&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="http://mdcupk02/SOPserver/Tutor/HTML/REANM117.htm#tasks" image="story_content/url.png" title="NIM Process " />
+      <resource url="story_content/external_files/GensuiteMobileTraining.pdf" image="story_content/5ZynmsSEdRx.png" title="Gensuite Mobile Training" />
+      <resource url="https://collab.thyssenkruppelevator.com/dept/bpdt/TutorFinal/Ref/REANM116_NIM_Quick_Reference_Guide.docx" image="story_content/url.png" title="NIM Process Quick Reference Guide" />
+    </resources>
+  </resource_data>
+  <transcript_data>
+    <slidetranscripts>
+      <slidetranscript slideid="6pPQTP9aCms.6H6lDMN7uIU" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Welcome to the training on the new installation maintenance or NIM turnover process. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pPQTP9aCms.6gJTkKasewJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The purpose of this course is to provide you with skills to effectively complete the NIM process, including inspection and turnover, as a resource for performing your work. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;This course has audio. Please adjust your computer’s speakers. If you would like to view navigation instructions for this course, click &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;the link at the bottom of your screen&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6pPQTP9aCms.6FKdS9IkeNH" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;At the completion of this lesson, you will be able to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Describe the New Installation Maintenance Process or NIM, including inspection and turnover&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Describe the roles of &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;new installation and modernization operations and service and repair involved &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;in NIM &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;turnover&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Utilize the automated NIM Tracker tool  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Utilize the Gensuite Inspection Tool and Action Tracking System&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 9, 48, 96, 144]' blockindent='9' indent='-9'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 9px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Implement best practices of a clean hand off&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.6BYLXvjZMUS" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;NIM is defined as new installation maintenance, and it involves activities to turnover a newly installed or modernized unit from construction to our service department.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click the blue circled steps in the process diagram with your mouse to learn more about each. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Symbol' size='15pt' style='font-size:15pt' color='#4b5564'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Once the project is booked, communication begins. Sales, operations, and service are all notified and aware of the new project from the beginning.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Symbol' size='15pt' style='font-size:15pt' color='#4b5564'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The unit is tracked throughout the entire process in the NIM tracker, an automated tool that can be used by all departments to track the project’s progress.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Symbol' size='15pt' style='font-size:15pt' color='#4b5564'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Service sales is notified when the inspection is scheduled so they can setup the NIM contract. This facilitates the NIM contract being available in the system prior to turnover. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Symbol' size='15pt' style='font-size:15pt' color='#4b5564'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;As schedules are adjusted they are communicated between construction, modernization and service operations. This keeps the service department informed of upcoming turnovers. Both the adjuster and service mechanic complete the checklist in Gensuite together and any deficiencies are corrected by both of them. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Symbol' size='15pt' style='font-size:15pt' color='#4b5564'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Final repairs are assessed and completed in a timely manner through the collaboration of NI/MOD operations and service.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Symbol' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;&amp;#183; &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Final acceptance is signed and delivered to the branch. The final acceptance packet is sent to service to update the NIM contract with the final details.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.6juWmq6Xswk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The NIM team turnover begins during the inspection and turnover phase of the new installation and modernization processes and continues through the project closeout phase.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Inspection and turnover is when the unit is ready for the final inspection before being turned over to the customer. &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;If the unit is serviced by our service department, the NIM team turnover marks the transition of the equipment to service.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;During the NIM process, office personnel ensure all proper forms are submitted and the Pre-NIM contract is setup. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The NIM team turnover is scheduled with the adjuster and service operations manager who then identifies and schedules the service mechanic. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Field personnel ensure equipment meets installation standards, completes the inspection along with the service technician and together they fix any unit deficiencies. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click next to learn more about the roles that the office and the field have during the NIM process.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.6bp6dQlUqSt" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Several different roles play an active part in the NIM team turnover process. Some roles may overlap depending on the individual branch.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click the roles below to learn more about each. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.69FDSbjHe0G" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;What are the benefits of the new NIM process?&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The NIM process promotes complete transparency of upcoming turnovers across multiple lines of business. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Enhances the customer experience due to proactive setup to identify customer and location at point of turnover and increases communication&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Enables the service mechanic to be aware of the unit, location and customer needs early in the process.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Increases collaboration between departments, which improves the customer experience and retains or impacts the securing of service contracts.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.68VwVs2x6uT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The NIM Process crosses multiple lines of business. A procedure has been created for the NIM process that also affects many other existing procedures.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Access the procedure “New Installation Maintenance Process” to learn more. It addresses procedures for both new installation and modernization operations, service sales and service operations. It links to other existing procedures and highlights their changes. For example, you will see the highlighted section in the NIM Process procedure is the change within the “Conducting a Weekly Branch Meeting procedure. If you click the Conducting Weekly Branch Meeting procedure you may open it to see the entire procedure. You may find the same change within the procedure just opened. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;You can access this and other pertinent procedures in the resources section at the top right of your training.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.5qQubNZiaqi" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="8">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Operations, sales and service should communicate early and often to ensure transparency throughout the process.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Field employees should conduct the final inspection together with the service mechanic to ensure a smooth transition.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Proper tracking and inspection tools should be used to document the unit’s progress throughout the process, which will be discussed in the following module. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6m7X5RHWnXY.6aKcpaTD3Hp" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click Next to answer the following questions to test how much you’ve learned!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.5dsL7djHi57" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="10">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The NIM Turnover Tracker is used to document the unit’s progress from booking to service. All parties involved in the NIM process can access the Turnover Tracker to view and update progress. To access the NIM Turnover Tracker, you will need a log in to the SharePoint site where it is housed. This is the same as the SharePoint Business Performance Review site. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;If you do not have access to the BPR SharePoint site, you will be prompted to enter the reason you need access to the site. Enter a brief reason and click submit. You will be notified through email once access is granted. Your log in is your network ID and password.  Once in the BPR site, hover over your region and select your district to go to the home page. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Once you’re in the site, click NIM at the bottom right, then click NIM Tracker. We will discuss the use of the NIM Turnover Tracker in this lesson.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.5oZiCTZBza1" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="11">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Here you will see the dashboard for the NIM Turnover Tracking tool. You may filter by region, district, branch, line of business or completed status. Please note, you will only be able to view the region, district and branches that are assigned to you.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;You may also sort by column headers by clicking the drop down on each column header. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The first five columns on the left pre-populate information from Oracle. When populating the adjuster’s name, edit the column to add the mechanic’s name and the inspection checklist date, if the checklist is completed together. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The eight columns to the right are manual entry that need to be filled in.  Click submit at the top right to commit the information entered to the database. Manual entries can be edited and resubmitted. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The GS Address column is used to paste the Gensuite link into the tracker. Once submitted this will populate the link in the Link column to be able to update Gensuite while reviewing the tracker.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Check the completed column once the NIM Turnover is completed. You may use the completed drop-down menu and a filter value of no to show only active units. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The filtered view can be exported to excel. But please note changes to the excel, exported document do not update the information in the NIM Turnover Tracker.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.6IvLJ22mp14" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="12">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Now it’s your turn to practice! Click on the blue button below to access the “Try It” UPKs on the NIM Turnover Tracker and Linking Gensuite to the NIM Turnover Tracker.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6rFWxkwBMsW.5tz4eHC5lN0" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click Next to answer the following questions to test how much you’ve learned!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6gVfd9gPyia.6DV7HgOvdXB" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="13">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;In this course, you learned how to:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Describe the NIM Process, including inspection and turnover&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Describe the roles of New Installation and Modernization Operations and Service and Repair involved in NIM Turnover&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Utilize the automated NIM Tracker tool  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Utilize the Gensuite Inspection Tool and Action tracking System&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Implement best practices of a clean hand off&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6gVfd9gPyia.67bhWWGvhiL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="14">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Let’s see what you’ve learned!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Answer the following questions in the graded final quiz. 80% is a passing score.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6gVfd9gPyia.6TS3Qt0mt84" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="15">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Thank you for completing this training. To close the course, click the X to close this Internet window. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.6PBSDEnGK1c" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="16">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Gensuite is a desktop and mobile application that supports quality and continuous improvement at thyssenkrupp E&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;l&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;evator through online tools such as the Elevator Inspection Tool, Quality Concern Reporting and Action Tracking System. Two of these applications are used in the NIM process, the Inspection Tool and the Action Tracking System, which we will review briefly together today. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.67G5fKBu6lL" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="17">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;To obtain access to Gensuite:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 32, 48, 96, 144]' blockindent='32' indent='-32'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 32px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Attend a Gensuite training session&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 32, 48, 96, 144]' blockindent='32' indent='-32'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 32px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Email Karen Tolson, the Senior Director of Quality Systems at karen.tolson@thyssenkrupp.com&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 32, 48, 96, 144]' blockindent='32' indent='-32'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 32px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Compose an email stating:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 56, 96, 144]' blockindent='56' indent='-32'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 56px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Your name and title&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 56, 96, 144]' blockindent='56' indent='-32'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 56px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Subject line should be “Gensuite Access”&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 56, 96, 144]' blockindent='56' indent='-32'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 56px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;When you completed training and with whom. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 56, 96, 144]' blockindent='56' indent='-32'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 56px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Which applications within Gensuite you need access to, &lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;i.e. Action Tracking System and Inspection Tool&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 56, 96, 144]' blockindent='56' indent='-32'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 56, 96, 144]' blockindent='56' indent='-32'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.5hdZ2fAfDSk" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="18">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Let’s take a look at the inspection tool. Click on the inspection tool menu item now to view it.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.5zBq6cij54Y" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="19">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Once in the inspection tool, you will see the dashboard where you can search for previous inspections or start a new one. To start a new inspection, click “Inspect Now” at the top of the screen. Then choose which Elevator Turnover Checklist you need from the drop-down menu. As you can see, the Modernization checklist for oildraulic and traction, along with the New Installation checklists for oildraulic and traction are available. Once you make your selection, click “launch inspection.” The identifier needs to be populated as the job number. The format for the identifier is three letters plus three numbers. The inspection type should be NIM Elevator, which is under Service header.  The name of the supporting inspector needs to be populated in the comments box.  The dates populate for you.  Please do not change the dates from the default at this time.  &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click through the numbered tabs at the top to answer the inspection checklist questions. The system defaults to “under evaluation,” but you may choose yes to indicate that the part is working properly, or you may choose no to indicate that a deficiency has been identified or choose not applicable. Once you click through all of the tabs and answer all of the questions, click submit at the top right to submit your inspection checklist. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Most field employees complete the inspection through a mobile application on their phones. Office employees should have an understanding of what the mobile app looks like. Click the blue button at the bottom of your screen to view an example. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The mobile app is similar to the desktop tool and easy to use. Field employees predominantly complete the Elevator Inspection Checklist through the mobile app. For more information on using the mobile app, view the Gensuite mobile app training document in the resources section of this module.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.6lWEP4HQ6CR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="20">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;As you click through each tab answering questions, sometimes you will respond no and be required to enter further information. Please enter a brief description and the corrective action that took place or will take place. Once you have completed the checklist and clicked submit, you will be asked to export any findings to the Action Tracking System. Click export. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Please note that the application will not allow you to submit your Inspection Checklist without completing all the questions. The Action Name should be populated with the job name. Then you will need to indicate the responsible party and the required date. The verification is helpful, but not required to be completed. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Your submissions will then go into the Action Tracking System. Once your actions are submitted, you will receive an email to your inbox. Click next to see an example of the email. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.65Gc3UP4j49" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="21">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Once you export your findings, you will receive an email from Gensuite where you may access the Action Tracking System from the email to correct and close your findings. You may click the Finding ID number or the edit link at the bottom to edit your findings. You will continue to receive emails from Gensuite until the finding is closed. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click the Edit this Action Finding link at the bottom now to enter the Action Tracking System.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.5xUHScbnWxG" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="22">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Once you have submitted your inspection,  you will see that you have an item in the Action Tracking System that needs to be followed up on.  Click the Action Tracking System to see your actions to complete.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click Action Tracking System now. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.6Vd0icIUvGh" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="23">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;In the Action Tracking System, you will see your status summary at the bottom with your open findings and year to date findings. You may click on the blue, linked numbers to view your findings and close them.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click the hyperlinked numbers in the gold box now.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;O&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;n&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;ce you expand your status summary, you will be able to view your closure due date, the action name and number with a brief description, building information, corrective action, responsible person, status and other pertinent information. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;If you click on the responsible person link, it will allow you to write an email to the responsible person through Gensuite. If you click on the open status link, it will allow you to edit the finding. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="6qpULhvmNAM.6PS2SHnxw8L" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="9">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Click Next to answer the following questions to test how much you’ve learned!&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5waZ4ANF6Oi.6Z4DkBGljaT" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="24">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The objective behind the NIM process is to provide a better customer experience through transparency and communication. It is designed to increase customer satisfaction and quality through better collaboration between sales, operations and service. Ultimately, this will provide a smoother transition for both our internal and external customers. &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+      <slidetranscript slideid="5waZ4ANF6Oi.5adwXx38qrR" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="25">&lt;html&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;The NIM process encourages:&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Branch manager ownership and accountability&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Early forecasting of jobs to service&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Collaboration during the inspection between the adjuster and service mechanic with one checklist and proactive troubleshooting&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#00a0f5'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Deficiencies corrected upstream before they reach the customer&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;15 day service inspection period eliminated&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Contract setup prior to final acceptance &lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;All inspections complete prior to final customer acceptance&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;font face='Arial' size='15pt' style='font-size:15pt' color='#003c7d'&gt;&lt;span style="display: inline-block; text-align:left; min-width: 11px"&gt;• &lt;/span&gt;&lt;/font&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;Automated tracking tool used by all departments&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 11, 48, 96, 144]' blockindent='11' indent='-11'&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;p align='left'&gt;&lt;textformat leading='0' tabstops='[0, 48, 96, 144]' blockindent='0' indent='0'&gt;&lt;font face='TKTypeRegular' size='15pt' style='font-size:15pt' color='#003c7d'&gt;For more information, you may consult the standard operating procedure located in the Resources section of this training module.&lt;/font&gt;&lt;/textformat&gt;&lt;/p&gt;&lt;/html&gt;</slidetranscript>
+    </slidetranscripts>
+  </transcript_data>
+  <glossary_data />
+</bwFrame>
